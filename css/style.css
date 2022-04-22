@@ -1,0 +1,143 @@
+@font-face {
+  font-family: Cowboy_Movie;
+  src: url(../fonts/Cowboy_Movie.ttf);
+}
+
+@font-face {
+  font-family: JMH_Typewriter;
+  src: url(../fonts/JMH_Typewriter.ttf);
+}
+
+@font-face {
+  font-family: JMH_Typewriter-Bold;
+  src: url(../fonts/JMH_Typewriter-Bold.ttf);
+}
+
+@font-face {
+  font-family: JMH_Typewriter-Thin;
+  src: url(../fonts/JMH_Typewriter-Thin.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: #e1e1e1;
+  font-family: JMH_Typewriter-Thin;
+}
+
+h2 {
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: JMH_Typewriter-Bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: JMH_Typewriter-Bold;
+  text-align: center;
+}
+
+#main-title {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 6px 24px;
+  font-family: Cowboy_Movie;
+  text-align: left;
+  color: white;
+  margin: 0px;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.menu {
+  position: sticky;
+  top: 0px;
+  background-color: rgba(207, 206, 206, 0.5);
+}
+
+.menu a {
+  display: inline-block;
+  font-family: JMH_Typewriter-Thin;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  padding: 14px 22px;
+}
+
+.menu a:hover {
+  background: #e6af63;
+  color: black;
+}
+
+#story {
+  margin: 30px 40px;
+}
+
+#destination {
+  margin-top: 50px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#destination div {
+  background-color: rgba(207, 206, 206, 0.5);
+  padding: 20px;
+}
+
+#destination img {
+  width: 100%;
+}
+
+#packages {
+  margin-top: 50px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#packages div{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background-color: rgba(207, 206, 206, 0.5);
+  padding: 20px;
+}
+
+#reports {
+  margin-top: 50px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#reports div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: rgba(207, 206, 206, 0.5);
+  padding: 20px;
+}
+
+#contact {
+  margin-top: 50px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#contact div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  background-color: rgba(207, 206, 206, 0.5);
+  padding: 20px;
+}

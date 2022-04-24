@@ -30,6 +30,10 @@ body {
   font-family: JMH_Typewriter-Thin;
 }
 
+body p {
+  font-size: 16px;
+}
+
 h2 {
   margin-top: 50px;
   font-size: 30px;
@@ -140,4 +144,123 @@ h3 {
   align-items: center;
   background-color: rgba(207, 206, 206, 0.5);
   padding: 20px;
+}
+
+@media (max-width: 900px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #181818;
+  }
+
+  body h2, h3, p, a {
+    color: #e1e1e1;
+  }
+
+  #destination {
+    margin-top: 50px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #reports div {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    background-color: rgba(207, 206, 206, 0.5);
+    padding: 20px;
+  }
+
+  #contact div {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    background-color: rgba(207, 206, 206, 0.5);
+    padding: 20px;
+  }
+
+  body p {
+    font-size: 18px;
+  }
+
+  #destination .denis{
+    src: url(../images/saint-denis\ 400.jpg);
+  }
+  #destination .strawberry{
+    src: url(../images/strawberry\ 400.jpg);
+  }
+  #destination .valentine{
+    src: url(../images/valentine\ 400.jpg)
+  }
+  #destination .armadillo{
+    src: url(../images/armadillo\ 400.jpg);
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #181818;
+  }
+
+  body h2, h3, p, a {
+    color: #e1e1e1;
+  }
+
+  #destination {
+    margin-top: 50px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #destination img {
+    display: none;
+  }
+
+  #reports {
+    margin-top: 50px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #reports div {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    background-color: rgba(207, 206, 206, 0.5);
+    padding: 20px;
+  }
+
+  #packages {
+    margin-top: 50px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #contact div {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    background-color: rgba(207, 206, 206, 0.5);
+    padding: 20px;
+  }
+
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #e1e1e1;
+  }
+
+  body h2, h3, p, a {
+    color: #181818;
+  }
+
+  body p {
+    font-size: 20px;
+  }
 }

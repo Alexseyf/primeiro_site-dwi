@@ -64,7 +64,7 @@ h3 {
 .menu {
   position: sticky;
   top: 0px;
-  background-color: rgba(207, 206, 206, 0.5);
+  background-color:#181818
 }
 
 .menu a {
@@ -72,7 +72,7 @@ h3 {
   font-family: JMH_Typewriter-Thin;
   text-decoration: none;
   font-size: 20px;
-  color: #000000;
+  color:#e1e1e1;
   padding: 14px 22px;
 }
 
@@ -81,8 +81,16 @@ h3 {
   color: black;
 }
 
+#historia {
+  height: 20px;
+}
+
 #story {
   margin: 30px 40px;
+}
+
+#destinos {
+  height: 20px;
 }
 
 #destination {
@@ -95,6 +103,10 @@ h3 {
 #destination div {
   background-color: rgba(207, 206, 206, 0.5);
   padding: 20px;
+}
+
+#pacotes {
+  height: 20px;
 }
 
 #destination img {
@@ -116,6 +128,10 @@ h3 {
   padding: 20px;
 }
 
+#relatos {
+  height: 20px;
+}
+
 #reports {
   margin-top: 50px;
   gap: 20px;
@@ -129,6 +145,10 @@ h3 {
   align-items: center;
   background-color: rgba(207, 206, 206, 0.5);
   padding: 20px;
+}
+
+#contato {
+  height: 20px;
 }
 
 #contact {
